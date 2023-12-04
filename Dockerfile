@@ -1,4 +1,4 @@
-FROM node:18-alpine AS base
+FROM artifactory.momenta.works/docker/node:18-alpine AS base
 
 FROM base AS deps
 

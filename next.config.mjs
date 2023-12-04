@@ -8,6 +8,7 @@ console.log("[Next] build with chunk: ", !disableChunk);
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  assetPrefix: process.env.NODE_ENV === 'production' ? 'https://gpt-test.momenta.works/4v' : '',
   webpack(config) {
     config.module.rules.push({
       test: /\.svg$/,
