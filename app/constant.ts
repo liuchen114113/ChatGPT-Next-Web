@@ -88,12 +88,12 @@ Latex inline: $x^2$
 Latex block: $$e=mc^2$$
 `;
 
-export const SUMMARIZE_MODEL = "gpt-3.5-turbo";
+export const SUMMARIZE_MODEL = "gpt-4o";
 
 export const KnowledgeCutOffDate: Record<string, string> = {
   default: "2021-09",
-  "gpt-4-1106-preview": "2023-04",
-  "gpt-4-vision-preview": "2023-04",
+  "gpt-4o-1106-preview": "2023-04",
+  "gpt-4o-vision-preview": "2023-04",
 };
 
 export const DEFAULT_MODELS = [
@@ -102,55 +102,55 @@ export const DEFAULT_MODELS = [
     available: true,
   },
   // {
-  //   name: "gpt-4-0314",
+  //   name: "gpt-4o-0314",
   //   available: true,
   // },
   // {
-  //   name: "gpt-4-0613",
+  //   name: "gpt-4o-0613",
   //   available: true,
   // },
   // {
-  //   name: "gpt-4-32k",
+  //   name: "gpt-4o-32k",
   //   available: true,
   // },
   // {
-  //   name: "gpt-4-32k-0314",
+  //   name: "gpt-4o-32k-0314",
   //   available: true,
   // },
   // {
-  //   name: "gpt-4-32k-0613",
+  //   name: "gpt-4o-32k-0613",
   //   available: true,
   // },
   // {
-  //   name: "gpt-4-1106-preview",
+  //   name: "gpt-4o-1106-preview",
   //   available: true,
   // },
   // {
-  //   name: "gpt-4-vision-preview",
+  //   name: "gpt-4o-vision-preview",
   //   available: true,
   // },
   // {
-  //   name: "gpt-3.5-turbo",
+  //   name: "gpt-4o",
   //   available: true,
   // },
   // {
-  //   name: "gpt-3.5-turbo-0301",
+  //   name: "gpt-4o-0301",
   //   available: true,
   // },
   // {
-  //   name: "gpt-3.5-turbo-0613",
+  //   name: "gpt-4o-0613",
   //   available: true,
   // },
   // {
-  //   name: "gpt-3.5-turbo-1106",
+  //   name: "gpt-4o-1106",
   //   available: true,
   // },
   // {
-  //   name: "gpt-3.5-turbo-16k",
+  //   name: "gpt-4o-16k",
   //   available: true,
   // },
   // {
-  //   name: "gpt-3.5-turbo-16k-0613",
+  //   name: "gpt-4o-16k-0613",
   //   available: true,
   // },
 ] as const;

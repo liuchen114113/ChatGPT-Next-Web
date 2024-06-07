@@ -189,7 +189,7 @@ OpenAI 只接受指定地区的信用卡（中国信用卡无法使用）。一�
 
 ## 如何使用 GPT-4 的 API 访问？
 
-- GPT-4 的 API 访问需要单独申请。到以下地址填写你的信息进入申请队列 waitlist（准备好你的 OpenAI 组织 ID）：https://openai.com/waitlist/gpt-4-api
+- GPT-4 的 API 访问需要单独申请。到以下地址填写你的信息进入申请队列 waitlist（准备好你的 OpenAI 组织 ID）：https://openai.com/waitlist/gpt-4o-api
   之后等待邮件消息。
 - 开通 ChatGPT Plus 不代表有 GPT-4 权限，两者毫无关系。
 
@@ -215,14 +215,14 @@ OpenAI 网站计费说明：https://openai.com/pricing#language-models
 OpenAI 根据 token 数收费，1000 个 token 通常可代表 750 个英文单词，或 500 个汉字。输入（Prompt）和输出（Completion）分别统计费用。  
 |模型|用户输入（Prompt）计费|模型输出（Completion）计费|每次交互最大 token 数|
 |----|----|----|----|
-|gpt-3.5-turbo|$0.0015 / 1 千 tokens|$0.002 / 1 千 tokens|4096|
-|gpt-3.5-turbo-16K|$0.003 / 1 千 tokens|$0.004 / 1 千 tokens|16384|
-|gpt-4|$0.03 / 1 千 tokens|$0.06 / 1 千 tokens|8192|
-|gpt-4-32K|$0.06 / 1 千 tokens|$0.12 / 1 千 tokens|32768|
+|gpt-4o|$0.0015 / 1 千 tokens|$0.002 / 1 千 tokens|4096|
+|gpt-4o-16K|$0.003 / 1 千 tokens|$0.004 / 1 千 tokens|16384|
+|gpt-4o|$0.03 / 1 千 tokens|$0.06 / 1 千 tokens|8192|
+|gpt-4o-32K|$0.06 / 1 千 tokens|$0.12 / 1 千 tokens|32768|
 
-## gpt-3.5-turbo 和 gpt3.5-turbo-0301(或者 gpt3.5-turbo-mmdd)模型有什么区别?
+## gpt-4o 和 gpt3.5-turbo-0301(或者 gpt3.5-turbo-mmdd)模型有什么区别?
 
 官方文档说明：https://platform.openai.com/docs/models/gpt-3-5
 
-- gpt-3.5-turbo 是最新的模型，会不断得到更新。
-- gpt-3.5-turbo-0301 是 3 月 1 日定格的模型快照，不会变化，预期 3 个月后被新快照替代。
+- gpt-4o 是最新的模型，会不断得到更新。
+- gpt-4o-0301 是 3 月 1 日定格的模型快照，不会变化，预期 3 个月后被新快照替代。

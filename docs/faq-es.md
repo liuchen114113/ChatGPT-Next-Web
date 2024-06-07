@@ -167,7 +167,7 @@ OpenAI solo acepta tarjetas de crédito en regiones seleccionadas (no se pueden 
 
 ## ¿Cómo utilizo el acceso a la API de GPT-4?
 
-*   El acceso a la API para GPT-4 requiere una solicitud independiente. Ingrese a la cola de la solicitud completando su información en la lista de espera (prepare su ID de organización OpenAI): https://openai.com/waitlist/gpt-4-api
+*   El acceso a la API para GPT-4 requiere una solicitud independiente. Ingrese a la cola de la solicitud completando su información en la lista de espera (prepare su ID de organización OpenAI): https://openai.com/waitlist/gpt-4o-api
     Espere el mensaje de correo después.
 *   Habilitar ChatGPT Plus no significa permisos GPT-4, y los dos no tienen nada que ver entre sí.
 
@@ -194,8 +194,8 @@ OpenAI cobra en función del número de tokens, y 1,000 tokens generalmente repr
 |Modelo|Facturación de entrada de usuario (aviso)|Facturación de salida del modelo (finalización)|Número máximo de tokens por interacción|
 |----|----|----|----|
 |gpt-3.5|$0.002 / 1 mil tokens|$0.002 / 1 mil tokens|4096|
-|gpt-4|$0.03 / 1 mil tokens|$0.06 / 1 mil tokens|8192|
-|gpt-4-32K|$0.06 / 1 mil tokens|$0.12 / 1 mil tokens|32768|
+|gpt-4o|$0.03 / 1 mil tokens|$0.06 / 1 mil tokens|8192|
+|gpt-4o-32K|$0.06 / 1 mil tokens|$0.12 / 1 mil tokens|32768|
 
 ## ¿Cuál es la diferencia entre los modelos GPT-3.5-TURBO y GPT3.5-TURBO-0301 (o GPT3.5-TURBO-MMDD)?
 

@@ -17,7 +17,7 @@ declare global {
       BUILD_APP?: string; // is building desktop app
 
       HIDE_USER_API_KEY?: string; // disable user's api key input
-      DISABLE_GPT4?: string; // allow user to use gpt-4 or not
+      DISABLE_GPT4?: string; // allow user to use gpt-4o or not
       ENABLE_BALANCE_QUERY?: string; // allow user to query balance or not
       DISABLE_FAST_LINK?: string; // disallow parse settings from url or not
       CUSTOM_MODELS?: string; // to control custom models
@@ -55,7 +55,7 @@ export const getServerSideConfig = () => {
 
   if (disableGPT4) {
     if (customModels) customModels += ",";
-    customModels += DEFAULT_MODELS.filter((m) => m.name.startsWith("gpt-4"))
+    customModels += DEFAULT_MODELS.filter((m) => m.name.startsWith("gpt-4o"))
       .map((m) => "-" + m.name)
       .join(",");
   }
