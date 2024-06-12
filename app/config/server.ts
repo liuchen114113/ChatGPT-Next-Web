@@ -71,7 +71,8 @@ export const getServerSideConfig = () => {
   );
 
   return {
-    baseUrl: process.env.BASE_URL,
+    // baseUrl: process.env.BASE_URL,
+    baseUrl: "http://localhost:7763",
     apiKey,
     openaiOrgId: process.env.OPENAI_ORG_ID,
 

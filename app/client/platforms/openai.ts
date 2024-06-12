@@ -100,8 +100,6 @@ export class ChatGPTApi implements LLMApi {
 
     try {
       let chatPath = this.path(OpenaiPath.ChatPath);
-      chatPath =
-        (process.env.NODE_ENV === "production" ? "/4v" : "") + chatPath;
       const chatPayload = {
         method: "POST",
         body: JSON.stringify(requestPayload),
