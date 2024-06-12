@@ -1019,7 +1019,9 @@ function _Chat() {
               );
             }
             if (payload.url) {
-              accessStore.update((access) => (access.openaiUrl = payload.url!));
+              accessStore.update(
+                (access) => ((access.openaiUrl as string) = payload.url!),
+              );
             }
           });
         }
