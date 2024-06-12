@@ -25,8 +25,6 @@ fn main() {
     .join("../../../bin/azure-openai-proxy");
 
 
-   
-
     match Command::new(binary_path)
         .spawn(){
             Ok(child) => {
